@@ -22,14 +22,12 @@ public class Scientific_Mode extends javax.swing.JFrame {
         initComponents();
     }
     
-    public String Display_doubleORint(double ans){ 
-        String result;
+    public void Dysplay_doubleORint(double ans){ 
         if ((ans % 1) == 0) {
-            result = Integer.toString((int) ans);
+            DisplayField.setText(Integer.toString((int) ans));
         }else{
-            result = Double.toString(ans);
+           DisplayField.setText(Double.toString(ans));  
         }
-        return result;
     }
 
     /**
@@ -541,7 +539,8 @@ public class Scientific_Mode extends javax.swing.JFrame {
         if (DisplayField.getText().length() > 0) {
             num = Double.parseDouble(DisplayField.getText());
             ans = num * (-1);
-            DisplayField.setText(Display_doubleORint(ans));
+            //DisplayField.setText(Double.toString(ans));
+            Dysplay_doubleORint(ans);
         }else{
             DisplayField.setText("-");
         }
