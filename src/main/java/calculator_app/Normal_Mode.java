@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package calculator_app;
 
 import java.awt.event.KeyEvent;
@@ -25,7 +20,7 @@ public class Normal_Mode extends javax.swing.JFrame {
     }
     
     // methode that verifies if a number is an int or a double and converts it to a string accordinly  
-    public String Display_doubleORint(double ans){ 
+    public static String Display_doubleORint(double ans){ 
         String result;
         if ((ans % 1) == 0) {
             result = Integer.toString((int) ans);      // convert the int to a string 
@@ -118,6 +113,7 @@ public class Normal_Mode extends javax.swing.JFrame {
         jMenu4.setText("jMenu4");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         Minus.setFont(new java.awt.Font("Lucida Grande", 1, 12)); // NOI18N
         Minus.setText("-");
@@ -548,7 +544,7 @@ public class Normal_Mode extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_DisplayFieldKeyTyped
     
-    // action on +/- button 
+    // action on - button 
     private void MinusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MinusActionPerformed
         num = Double.parseDouble(DisplayField.getText());
         operation = 2;

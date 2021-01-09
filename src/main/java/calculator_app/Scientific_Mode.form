@@ -38,6 +38,7 @@
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
@@ -61,8 +62,8 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                  <Component id="DisplayField" alignment="0" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="DisplayField" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
@@ -115,68 +116,64 @@
                               <Component id="Equal_" min="-2" pref="54" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="jButton0_1" min="-2" pref="54" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="power_" min="-2" pref="54" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Point_1" min="-2" pref="54" max="-2" attributes="0"/>
+                              <Component id="leftBracket_" min="-2" pref="54" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="PlusMinus_1" min="-2" pref="54" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Equal_1" min="-2" pref="54" max="-2" attributes="0"/>
+                              <Component id="rightBracket_" min="-2" pref="54" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Component id="jButton7_1" min="-2" pref="54" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="cos_" min="-2" pref="54" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jButton9_1" min="-2" pref="54" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="Mul_1" min="-2" pref="54" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="abs_" min="-2" pref="54" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="cos_" min="-2" pref="54" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="power3_" min="-2" pref="54" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="factorial_" min="-2" pref="54" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="sin_" min="-2" pref="54" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="power2_" min="-2" pref="54" max="-2" attributes="0"/>
+                                      </Group>
                                   </Group>
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Component id="AC_1" min="-2" pref="54" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="log_" min="-2" pref="54" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="sin_" min="-2" pref="54" max="-2" attributes="0"/>
+                                      <Component id="tan_" min="-2" pref="54" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="sinh_" min="-2" pref="54" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="Div_1" min="-2" pref="54" max="-2" attributes="0"/>
+                                      <Component id="E_" min="-2" pref="54" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="log_" min="-2" pref="54" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="sqrt_" min="-2" pref="54" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="tan_" min="-2" pref="54" max="-2" attributes="0"/>
+                                  <Component id="exp_" min="-2" pref="54" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jButton6_1" min="-2" pref="54" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Minus1" min="-2" pref="54" max="-2" attributes="0"/>
+                                  <Component id="PI_" min="-2" pref="54" max="-2" attributes="0"/>
                               </Group>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="sqrt_" min="-2" pref="54" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton2_1" min="-2" pref="54" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="PI_" min="-2" pref="54" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="E_" min="-2" pref="54" max="-2" attributes="0"/>
                           </Group>
                       </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
+                  <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="19" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="DisplayField" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
@@ -218,42 +215,37 @@
                   </Group>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="AC_1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="factorial_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                           <Component id="sin_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="sinh_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="Div_1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="power2_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton7_1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="abs_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                           <Component id="cos_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="jButton9_1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="Mul_1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="power3_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="log_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                           <Component id="tan_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="jButton6_1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="Minus1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="sqrt_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="jButton2_1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="PI_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                           <Component id="E_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton0_1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="Point_1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="PlusMinus_1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="Equal_1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="sqrt_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="exp_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="PI_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="power_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="leftBracket_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="rightBracket_" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="13" max="32767" attributes="0"/>
+              <EmptySpace pref="32" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -344,6 +336,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="-"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MinusActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Del_">
       <Properties>
@@ -374,6 +369,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="%"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="modulo_ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton2_">
       <Properties>
@@ -393,6 +391,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="&#xf7;"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Div_ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton3_">
       <Properties>
@@ -478,22 +479,20 @@
         </Property>
         <Property name="text" type="java.lang.String" value="x"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Mul_ActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton6_1">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="11" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="tanh"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="AC_1">
+    <Component class="javax.swing.JButton" name="factorial_">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Grande" size="12" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="x!"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="factorial_ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="sin_">
       <Properties>
@@ -506,32 +505,16 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sin_ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="sinh_">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="11" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="sinh"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sinh_ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="Div_1">
+    <Component class="javax.swing.JButton" name="power2_">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Grande" size="11" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="x^2"/>
       </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Minus1">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="10" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="10^x"/>
-      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="power2_ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="sqrt_">
       <Properties>
@@ -544,13 +527,16 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sqrt_ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton2_1">
+    <Component class="javax.swing.JButton" name="exp_">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Grande" size="11" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="EXP"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exp_ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="PI_">
       <Properties>
@@ -563,13 +549,16 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PI_ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton7_1">
+    <Component class="javax.swing.JButton" name="abs_">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Grande" size="12" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="ln"/>
+        <Property name="text" type="java.lang.String" value="abs"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abs_ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="E_">
       <Properties>
@@ -593,45 +582,49 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cos_ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton0_1">
+    <Component class="javax.swing.JButton" name="power_">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Grande" size="12" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="x^y"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="power_ActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton9_1">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="11" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="cosh"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Point_1">
+    <Component class="javax.swing.JButton" name="leftBracket_">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Grande" size="12" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="("/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="leftBracket_ActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Mul_1">
+    <Component class="javax.swing.JButton" name="power3_">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Grande" size="11" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="x^3"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="power3_ActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="PlusMinus_1">
+    <Component class="javax.swing.JButton" name="rightBracket_">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Grande" size="12" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value=")"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rightBracket_ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="log_">
       <Properties>
@@ -644,14 +637,6 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="log_ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Equal_1">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Rnd"/>
-      </Properties>
-    </Component>
     <Component class="javax.swing.JButton" name="tan_">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -662,6 +647,11 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tan_ActionPerformed"/>
       </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
